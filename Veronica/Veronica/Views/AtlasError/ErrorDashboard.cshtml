@@ -1,0 +1,85 @@
+﻿@{
+    ViewBag.Title = "ErrorDashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{var panelClass = new string[] { "info", "info", "info", "info", "info", "info", "info", "info", "info", "info", "info", "info", "info", "info", "info", "info" };
+    int counter = 0;}
+<div class="blockUI">
+    <div class="row">
+        <div class="container-fluid">
+            <div class="row" style="float:right;" id="KPI">
+                <div class="col-lg-1">
+                    <div>DB</div>
+                </div>
+                <div class="col-lg-1">
+                    <select id="OLTPdatabase">
+                        <option value="Atlastest">Atlastest</option>
+                        <option value="Atlastest2">Atlastest2</option>
+                        <option value="Atlastest3">Atlastest3</option>
+                        <option value="Atlasint">Atlasint</option>
+                        <option value="Atlasint2">Atlasint2</option>
+                        <option value="Atlasint3">Atlasint3</option>
+                        <option value="Atlasqa">Atlasqa</option>
+                        <option value="Atlasqa2">Atlasqa2</option>
+                        <option value="Atlasqa3">Atlasqa3</option>
+                        <option value="Atlasmodel">Atlasmodel</option>
+                        <option value="Atlasprod">Atlasprod</option>
+                    </select>
+                </div>
+
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-12">
+                    @foreach (string status in ("All,ExternalServices,AuthService,BatchRulesProcessor,HCATReferralReprocessor,HITService,PDWBatchRulesProcessor,NTAReprocessorTask,PharmacyService,PDWRuleActionTransfer,MonitorBatchWorkFlow,AutoCaseReprocesor,AutoTaskReprocesor,CoreSparkProcessor,NULL,BatchJobLogging").Split(','))
+            {
+                        <div class="col-lg-2">
+                            <div class="statusPanel panel panel-@panelClass[counter]" data-status='@status'>
+                                <div class="panel-heading">
+                                    <div>@status</div>
+                                </div>
+                                <div class="panel-body">
+                                    <div id='@status' class="statusCount huge">0</div>
+                                </div>
+                            </div>
+                        </div>
+                        counter++;
+                    }
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <br />
+    <div class="row">
+
+        <div class="container-fluid">
+            <div class="table-responsive">
+                <table id="myGrid" style="width:100%" class="table">
+                    <thead>
+                        <tr>
+                            <th class="cell-small text-center">UniqueIDError</th>
+                            <th class="d-xl-table-cell">Description </th>
+                            <th>SysBeginDateTime </th>
+                            <th>MachineName </th>
+                            <th>AppName </th>
+                            <th>TransactionID </th>
+                            <th>BucketID</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

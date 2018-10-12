@@ -1,0 +1,15 @@
+C:\SharedFolder\Veronica\Veronica.Models\bin\Debug\Veronica.Models.dll
+C:\SharedFolder\Veronica\Veronica.Models\bin\Debug\Veronica.Models.pdb
+C:\SharedFolder\Veronica\Veronica.Models\obj\Debug\Veronica.Models.csprojResolveAssemblyReference.cache
+C:\SharedFolder\Veronica\Veronica.Models\obj\Debug\Veronica.Models.dll
+C:\SharedFolder\Veronica\Veronica.Models\obj\Debug\Veronica.Models.pdb
+C:\OnlyGuru\Veronica\Veronica.Models\bin\Debug\Veronica.Models.dll
+C:\OnlyGuru\Veronica\Veronica.Models\bin\Debug\Veronica.Models.pdb
+C:\OnlyGuru\Veronica\Veronica.Models\obj\Debug\Veronica.Models.csprojResolveAssemblyReference.cache
+C:\OnlyGuru\Veronica\Veronica.Models\obj\Debug\Veronica.Models.dll
+C:\OnlyGuru\Veronica\Veronica.Models\obj\Debug\Veronica.Models.pdb
+C:\Users\gxg9632\Source\Repos\Veronica\Veronica\Veronica.Models\bin\Debug\Veronica.Models.dll
+C:\Users\gxg9632\Source\Repos\Veronica\Veronica\Veronica.Models\bin\Debug\Veronica.Models.pdb
+C:\Users\gxg9632\Source\Repos\Veronica\Veronica\Veronica.Models\obj\Debug\Veronica.Models.csprojResolveAssemblyReference.cache
+C:\Users\gxg9632\Source\Repos\Veronica\Veronica\Veronica.Models\obj\Debug\Veronica.Models.dll
+C:\Users\gxg9632\Source\Repos\Veronica\Veronica\Veronica.Models\obj\Debug\Veronica.Models.pdb

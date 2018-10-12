@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "SSISDashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="blockUI">
+    <div class="row">
+        @*<div class="col-lg-11 col-sm-offset-1 ">*@
+        <div class="container-fluid">
+            @{Html.RenderPartial("~/Views/SSISDashboard/KPI.cshtml");}
+        </div>
+    </div>
+    <div class="row">
+        @*<div class="col-md-10 col-sm-offset-1">*@
+        <div class="container-fluid">
+            @{Html.RenderPartial("~/Views/SSISDashboard/Executions.cshtml");}
+        </div>
+    </div>
+</div>
+<div style="display: none">
+    @{Html.RenderPartial("~/Views/SSISDashboard/Executables.cshtml");}
+</div>
+<div style="display: none">
+    @{Html.RenderPartial("~/Views/SSISDashboard/Messages.cshtml");}
+</div>
+
